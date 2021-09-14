@@ -1,0 +1,25 @@
+{
+  "name": "nasa-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "watch": "nodemon src/server.js",
+    "test": "jest",
+    "start": "PORT=6000 node  src/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "csv-parse": "^4.16.3",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "jest": "^27.1.1",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.12",
+    "supertest": "^6.1.6"
+  }
+}
