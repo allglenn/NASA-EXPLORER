@@ -1,0 +1,23 @@
+{
+  "name": "NASA-EXPLORER",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npm run server & npm run client",
+    "client": "cd client && npm start",
+    "server":"cd server && npm run watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allglenn/NASA-EXPLORER.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/allglenn/NASA-EXPLORER/issues"
+  },
+  "homepage": "https://github.com/allglenn/NASA-EXPLORER#readme"
+}
